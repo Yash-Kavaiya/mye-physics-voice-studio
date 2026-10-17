@@ -4,7 +4,7 @@
 
 Built for the **AssemblyAI Voice Hackathon: Hack into Speech** (Oct 15–23, 2026) by [Yash Kavaiya](https://github.com/Yash-Kavaiya) for the [Mye Physics](https://www.youtube.com/@myephysics760) channel (B.Sc / M.Sc physics).
 
-🎬 **Demo video:** _DEMO_LINK_PLACEHOLDER_
+🎬 **Demo video:** https://youtu.be/QFNoym-jpbY
 
 ![Generated lesson frame](docs/lesson_frame.png)
 

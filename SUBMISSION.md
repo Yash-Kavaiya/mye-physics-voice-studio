@@ -3,7 +3,7 @@
 **Tagline:** Physics lessons that check their own voice.
 
 **Repo:** https://github.com/Yash-Kavaiya/mye-physics-voice-studio
-**Demo video:** _DEMO_LINK_PLACEHOLDER_ (4:41, 1080p)
+**Demo video:** https://youtu.be/QFNoym-jpbY (4:41, 1080p)
 **Team:** Yash Kavaiya (solo)
 
 ## What it does

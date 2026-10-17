@@ -1,0 +1,24 @@
+.env
+*.env
+!.env.example
+media/
+cache/
+out/
+__pycache__/
+*.pyc
+*.egg-info/
+# rendered artefacts (demo video is hosted separately)
+*.mp4
+!docs/*.gif
+*.wav
+!examples/audio/*.wav
+logs/
+voice/
+**/voice/
+demo/parts/
+demo/build/
+demo/_wm/
+demo/logs/
+*.storyboard.png
+raw_*
+.pytest_cache/

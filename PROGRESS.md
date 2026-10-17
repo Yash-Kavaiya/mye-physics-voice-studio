@@ -1,0 +1,20 @@
+# Mye Physics Voice Studio — progress log
+- 23:46 Docs read. AssemblyAI has NO standalone TTS REST endpoint (FAQ: TTS only via Voice Agent API; TTS-1 standalone on roadmap Q4 2026). Using documented Voice Agent API `greeting` (sent straight to TTS, word-for-word) via wss://agents.assemblyai.com/v1/ws for TTS. Tested OK, voice `michael`.
+- 23:47 STT pre-recorded /v2/transcript universal-3-5-pro OK with word timestamps.
+- 23:47 LLM Gateway: 400 "Your account does not have access to this LLM Gateway model" for all models -> topic mode optional; Q&A uses Voice Agent API's managed LLM instead.
+- 23:50 Package voicestudio/ written: config, tts (Voice Agent greeting), stt (+WER), voice (verify/regenerate/align -> ManimGX Speech), script (.md parser + LLM Gateway topic mode), gx/theme + gx/lesson_scenes, assemble (render/watermark/concat/loudnorm/SRT). Example: examples/residue_theorem.md
+- 23:53 Q&A works: Voice Agent answered in 1.14 s, answer WER 1.6%. Demo segments rendering via demo/render_demo.sh
+- 23:53 demo part Seg1 rendered
+- 23:53 demo part Seg2 rendered
+- 23:55 demo part D1 rendered
+- 23:57 demo part D2 rendered
+- 23:57 demo part D4 rendered
+- 23:58 demo part D5 rendered
+- 00:01 demo part D6 rendered
+- 00:05 demo part D1 rendered
+- 00:05 demo part D2 rendered
+- 00:06 demo part D3 rendered
+- 00:09 demo part D2 rendered
+- 00:09 demo part Thumb rendered
+- 00:09 demo part D2 rendered
+- 00:11 Demo assembled: demo/demo.mp4 4:41 1080p, -16.2 LUFS; thumbnail.png; README/SUBMISSION written. Next: secret scan + push.

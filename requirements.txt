@@ -1,0 +1,7 @@
+websockets>=13
+requests>=2.31
+python-dotenv>=1.0
+# animation engine (install separately; see README)
+# manimgx
+# optional web UI
+gradio>=4

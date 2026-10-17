@@ -18,3 +18,4 @@
 - 00:09 demo part Thumb rendered
 - 00:09 demo part D2 rendered
 - 00:11 Demo assembled: demo/demo.mp4 4:41 1080p, -16.2 LUFS; thumbnail.png; README/SUBMISSION written. Next: secret scan + push.
+- 00:11 Secret scan clean (key not in tree, .env untracked). Pushed PUBLIC https://github.com/Yash-Kavaiya/mye-physics-voice-studio
